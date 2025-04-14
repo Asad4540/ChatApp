@@ -40,7 +40,7 @@ public class Server implements ActionListener{
 			}
 				});
 		
-		ImageIcon i4 = new ImageIcon(ClassLoader.getSystemResource("icons/nikhil.png"));
+		ImageIcon i4 = new ImageIcon(ClassLoader.getSystemResource("icons/asad.jpg"));
 		Image i5 = i4.getImage().getScaledInstance(50,50,Image.SCALE_DEFAULT);
 		ImageIcon i6 = new ImageIcon(i5);
 		JLabel profile = new JLabel(i6);
@@ -68,7 +68,7 @@ public class Server implements ActionListener{
 		morevert.setBounds(380,22,10,20);
 		p1.add(morevert);
 		
-		JLabel name = new JLabel("Nikhil");
+		JLabel name = new JLabel("Asad");
 		name.setBounds(110, 15, 100,22);
 		name.setForeground(Color.WHITE);
 		name.setFont(new Font("SAN_SERIF",Font.BOLD,18));
