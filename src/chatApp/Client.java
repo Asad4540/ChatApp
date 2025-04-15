@@ -157,7 +157,7 @@ public class Client implements ActionListener {
 		try {
 
 			Socket s = new Socket("127.0.0.1", 6001);
-			//6001, 6002, 6003, 7000, 443
+			// 6001, 6002, 6003, 7000, 443
 
 			DataInputStream din = new DataInputStream(s.getInputStream());
 			dout = new DataOutputStream(s.getOutputStream());
